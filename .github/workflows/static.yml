@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibit Waluyo Aji - Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            margin-left: 20px;
+        }
+        .link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bibit Waluyo Aji - Personal Blog</h1>
+        <div class="section">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="section-content">
+                <p>Email: <a href="mailto:bibitwaji@gmail.com" class="link">bibitwaji@gmail.com</a></p>
+                <p>Location: Semarang, Indonesia</p>
+                <p>LinkedIn: <a href="www.linkedin.com/in/bibitwaluyoaji" class="link">www.linkedin.com/in/bibitwaluyoaji</a></p>
+                <p>GitHub: <a href="github.com/BibitAji" class="link">github.com/BibitAji</a></p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="section-content">
+                <p>As a seasoned Machine Learning Engineer, I am dedicated to revolutionizing industries through the application of cutting-edge artificial intelligence solutions. I have a solid foundation in mathematics, statistics, and programming languages such as Python. With over three years of experience in mathematics and fuzzy machine learning that applied in various field such as economics, physics, and biology.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Educational Background</h2>
+            <div class="section-content">
+                <p><strong>UNIVERSITAS DIPONEGORO</strong>, Semarang, Indonesia</p>
+                <p><em>Mathematics, Bachelor of (S.Mat)</em></p>
+                <p>September 2020 – February 2024</p>
+                <ul>
+                    <li>Cumulative GPA: upper second class honours (2:1)</li>
+                    <li>Relevant Coursework: Linear Programming, Algorithms and Programming, Operations Research, Internet of Things, Mathematics Modeling, Research Methodology, Stochastic Modeling, structure data, Database, Computer Application, Logistics and Invertory Optimization, Entrepreneurship, mathematical finance</li>
+                </ul>
+                <!-- Add other educational experiences here -->
+            </div>
+        </div>
+        
+        <!-- Add other sections (Professional Experience, Awards, Grants, Publications, etc.) as needed -->
+        
+    </div>
+</body>
+</html>
