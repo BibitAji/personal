@@ -1,32 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIBIT WALUYO AJI</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Your custom CSS styles go here */
+        body {}
+
+        .navbar { /* Change navbar background color to white */
+            background-color: #ffffff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #00783; /* Change font color on the navbar to #00783 */
+        }
+
+        .header {
+            background-color: #ffffff; /* Change header background color to white */
+            color: #00783; /* Change font color in the header to #00783 */
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .introduction {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+        }
+
+        .picture-description {
+            padding: 80px 0;
+        }
+
+        .picture-description img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .feature-box {
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            background-color: #03ae39;
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .nav-link {
+            color: #03ae39;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Bibit Waluyo Aji</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#">Projects</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="container mt-5">
         <header class="text-center mb-5">
             <h1>Bibit Waluyo Aji - Personal Blog</h1>
@@ -108,8 +156,9 @@
             </div>
         </div>
     </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
